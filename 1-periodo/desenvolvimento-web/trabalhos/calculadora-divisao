@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script>
+        function dividirNumeros() {
+            let numero1 = parseInt(prompt("Digite o primeiro número inteiro positivo:"));
+            let numero2 = parseInt(prompt("Digite o segundo número inteiro positivo:"));
+
+            function dividirInteiros(a, b) {
+                if (b === 0) {
+                    return "Erro! A divisão por zero não é permitida.";
+                }
+                return a / b;
+            }
+
+            let resultado = dividirInteiros(numero1, numero2);
+            alert("O resultado da divisão é igual a: " + resultado);
+        }
+    </script>
+</head>
+<body>
+    <h1>Calculadora de Divisão</h1>
+    <button onclick="dividirNumeros()">Clique aqui para dividir dois números</button>
+</body>
+</html>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+            font-family: 'Franklin Gothic Medium';
+        }
+
+        button {
+            background-color: #7fd0de;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #7fd0de;
+        }
+
+        .container {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 40px;
+            border
+        }

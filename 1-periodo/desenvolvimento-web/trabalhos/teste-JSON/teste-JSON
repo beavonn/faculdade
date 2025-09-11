@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste JSON local</title>
+</head>
+<body>
+    <h1>Teste - Carregar JSON</h1>
+    <input type="file" id="fileInput" />
+    <button onclick="carregarJSON()">Carregar JSON Local</button>  
+    <script>
+        function carregarJSON() {
+            const input = document.getElementById('fileInput')
+            if (input.files.length === 0) {
+                console.log("Nenhum arquivo selecionado.");
+                return;
+            }
+
+            const arquivo = input.files[0];
+            const leitor = new FileReader();
+
+            leitor.onload = function(evento) {
+                try {
+                    const conteudo = JSON.parse(evento.target.result);
+                    console.log("Conteúdo do JSON:", conteudo);
+                } catch (erro) {
+                    console.error("Erro ao analisar o JSON:", erro);
+                }
+            };
+
+        leitor.readAsText(arquivo);
+        }
+    </script>
+</body>
+<style>
+     h1 {
+            color: #333;
+            margin-bottom: 40px;
+            font-family: 'Franklin Gothic Medium';
+        }
+</style>
+</html>

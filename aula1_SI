@@ -1,0 +1,82 @@
+📘 Aula do dia 27/03/2025
+Introdução à Segurança da Informação
+
+Definição e importância: proteção de dados pessoais, segurança física e lógica. Não abrir brechas que comprometam a segurança.
+
+Princípios básicos (CID):
+
+Confidencialidade
+
+Integridade
+
+Disponibilidade
+
+Exemplos de falhas de segurança no mundo real: erro no blockchain, roubo de carteira, contas vinculadas a um número de telefone que podem ser facilmente roubadas.
+
+Segurança Física
+
+Definição e importância
+
+Proteção de ambientes, servidores e dispositivos
+
+Segurança local (manutenção, para-raios, risco de enchentes, etc.).
+
+Exemplos de medidas: câmeras, biometria, controle de acesso físico.
+
+O ideal é manter o ambiente de servidores sempre organizado.
+
+Segurança Lógica
+
+Proteção de dados e sistemas
+
+Principais ameaças:
+
+Malware
+
+Phishing
+
+Ransomware
+
+Medidas de proteção: antivírus, firewall, criptografia.
+
+Definições:
+
+Malware: software projetado para causar interrupções em computadores e servidores.
+
+Phishing: técnica de engenharia social usada para enganar usuários e roubar informações.
+
+Ransomware: software malicioso usado para sequestro de dados digitais com uso de criptografia.
+
+Controle de Acesso
+
+Visa controlar e gerenciar movimentações de pessoal, informações e objetos em um determinado local.
+
+Implementado por meio de políticas, procedimentos, dispositivos, hardware e software, métodos de identificação e sistemas de bloqueios.
+
+Elementos importantes: barreiras físicas, dispositivos de detecção de intrusão, ferramentas de inibição de riscos, sistemas de controle de acesso.
+
+Princípios básicos (CID):
+
+Confidencialidade
+
+Integridade
+
+Disponibilidade
+
+Modelos de Controle de Acesso
+
+DAC (Discretionary Access Control): permite aos proprietários de objetos decidir quem pode acessá-los.
+
+RBAC (Role-Based Access Control): define funções e permissões para controlar acessos.
+
+MAC (Mandatory Access Control): mecanismo usado para impor políticas de acesso estritas.
+
+Exercício
+
+1- Scanner ocular
+
+2- Proteção de firewall
+
+3- Utilização de crachás e separação por função
+
+4- Sinalizadores / detectores de intrusão

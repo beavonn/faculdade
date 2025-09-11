@@ -1,0 +1,27 @@
+nome = 'Beatriz'
+sobrenome = 'Von'
+print(nome + ' ' +sobrenome)
+
+y = 5
+x = 2
+print(x + y)
+
+a = 5
+b = 4.
+c = 'Bom dia'
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+x = int(2)
+y = int(2.8)
+z = int('2')
+print(x, y, z)
+
+x = 5
+def funcao():
+  x = 3
+  print('O valor da variável local é:', x)
+funcao()
+print('O valor da variável global é:', x)

@@ -1,0 +1,53 @@
+📘 Aula do dia 17/10/2025
+Boas Práticas em Segurança
+
+➡️ Tema: senhas, treinamento e proteção / controle de acesso, vírus e backups
+
+Senhas, Treinamento e Proteção
+
+O que é uma senha forte?
+
+Autenticação de dois fatores (2FA)
+
+Gerenciadores de senhas: LastPass, Bitwarden
+
+Boas práticas: criação de senhas seguras e troca periódica
+
+Engenharia social e phishing
+
+Treinamento e Conscientização
+
+Importância de treinar usuários e colaboradores.
+
+Exemplos de falhas humanas mais comuns.
+
+Cultura de segurança nas empresas.
+
+Ferramentas de conscientização: cartilhas, workshops, simulações de phishing.
+
+Controle de Acesso
+
+O que é controle de acesso? → Administração do acesso de um grupo de pessoas através de privilégios.
+
+Princípio do menor privilégio
+
+Tipos de acesso: físico e lógico.
+
+Exemplos: biometria, cartões, permissões em arquivos e sistemas.
+
+Vírus e Malware
+
+Tipos: vírus, worms, trojans, ransomware, spyware.
+
+Meios de propagação: e-mail, rede, pen-drive.
+
+Ferramentas de proteção: antivírus, firewalls.
+
+Outras práticas: atualização de software.
+
+Backups e Continuidade
+
+O que é backup?
+Tipos de backup: completo, incremental, diferencial.
+Estratégias: 3-2-1, nuvem, físico.
+Teste de restauração.

@@ -1,0 +1,77 @@
+<!DOCKTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Van Gogh - Um Artista Imortal</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <h1>Van Gogh - Um Artista Imortal</h1>
+        </header>
+    </div>
+</body>
+
+
+<section id="biografia">
+    <h2>Biografia</h2>
+    <p><b>Vincent van Gogh</b> (<i>1853-1890</i>) foi um pintor holandês de grande influência na arte moderna. Nascido em Zundert, na Holanda, ele teve uma vida marcada por dificuldades emocionais e financeiras. Antes de se tornar pintor, Van Gogh trabalhou até mesmo como missionário e teve várias ocupações, mas foi apenas aos 27 anos que decidiu se dedicar à pintura. Suas obras são marcadas por cores vibrantes e pinceladas expressivas, características que o tornaram um dos pioneiros do pós-impressionismo. Em sua vida, ele enfrentou problemas de saúde mental, incluindo episódios de depressão e ansiedade, o que o levou a várias internações em hospitais psiquiátricos. Embora tenha produzido diversas obras em apenas uma década, Van Gogh nunca foi reconhecido em vida e viveu em extrema pobreza, recebendo o apoio financeiro do irmão Theo. Ele morreu em 1890, aos 37 anos, provavelmente por suicídio. Hoje, é considerado um dos artistas mais importantes da história da arte devido ao seu legado.</p>
+    <div class="imagem-biografia">
+          <img src="img/vangogh.png">
+     </div>
+    
+</section>
+
+<section id="galeria">
+    <h2>Galeria de Obras</h2>
+    <div class="imagem-galeria">
+        <img src="img/starry-night.png">
+    </div>
+    
+    <p>Obra conhecida como <b>"A Noite Estrelada"</b>. A pintura mais famosa do artista, na verdade, foi feita enquanto o mesmo estava internado no hospital psiquiátrico de <i>Saint-Rémy-de-Provance</i>. Produziu mais de 200 quadros além desse durante seu período de hospitalização. </p>
+</section>
+
+<section id="legado">
+    <h2>Legado</h2>
+    <p>Van Gogh chama atenção em suas diversas obras devido a diversos fatores, entre eles estão a utilização de cores de forma expressiva. O pintor holandês acreditava que as cores possuíam uma ligação direta com o sentimento humano, conectando-se até mesmo ao estado de espírito. Tentando retratar sentimentos profundos em suas obras, abusava da utilização de cores nos dois extremos do espectro, muito quentes e muito frias. Seu legado também é visível quando se fala sobre o <b>Expressionismo</b>, — <i>grande movimento artístico que surgiu no início do século XX</i> — visto que muitos artistas do movimento buscaram inspirações nas telas criadas por Van Gogh. </p>
+</section>
+
+<section id="curiosidades">
+    <h2>Curiosidades</h2>
+
+    <div>
+        <ul>
+            <li>Van Gogh cortou parte da própria orelha.</li>
+            <li>Pintou mais de 2.100 obras durante sua vida.</li>
+            <li>Ele nunca teve reconhecimento enquanto vivo.</li>
+            <li>Já foi vendedor, professor, balconista, missionário e aspirante a pastor antes de se tornar pintor.</li>
+        </ul>
+            </div>
+    </section>
+
+    <body>
+        <div class="form-container">
+            <h2> Curtiu o conteúdo do site e quer saber mais sobre outros pintores famosos? Inscreva-se na nossa newsletter para receber tudo em primeira mão!</h2>
+            <div class="campo">
+                <form action="/enviar" method="post"
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                </div>
+
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+
+                <button type="submit">Enviar</button>
+        </div>
+    </body>
+
+    <footer>
+        <p>&copy; Todas as informações foram retiradas de sites, livros ou adaptações cinematográficas consultadas pela autora desta página.</p>
+    </footer>
+
+</body>
+</html>

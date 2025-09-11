@@ -1,0 +1,14 @@
+import pandas as pd
+dados = {'Nome': ['Alice', 'Bob', 'Carlos'], 'Idade': [25, 30, 35]}
+df = pd.DataFrame(dados)
+print(df)
+
+df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/2016-weather-data-seattle.csv")
+print(df.head(70))
+
+import random
+import time
+for i in range(5):
+  temperatura = random.uniform(26.0, 30.0)
+  print(f"Sensor {i+1}: {temperatura:.2f}°C")
+  time.sleep(1)
